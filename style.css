@@ -41,7 +41,7 @@
         color: white;
     }
     
-    p {
+    p, table {
         font-family: "Party Business";
     }
      
@@ -100,8 +100,8 @@
        }
       
     .arrondi{
-           margin: 80px;
-           border-radius: 50%;
+           right: 0;
+           
        }
       
     .navfooter{
@@ -167,7 +167,7 @@
          background-image: url("images/bg_light.png");
      }
      .bg_dark{
-         background-color: black;
+         background-image: url("images/bg_dark.png");
      }
      .bl{
          color: black;
@@ -175,4 +175,44 @@
      .wh, .description{
          color: white;
      }
+     .ligne{
+        text-decoration: line-through orange;
+    }
+
+.taille{
+    font-size: 40px;
+}
+.taille2{
+    font-size: 40px;
+}
+.couleur{
+    color: orangered;
+}
+.coin{
+    position: absolute;
+   right: 0;
+   bottom: 0;
+   max-width: 100%;
+   height: auto;
+}
+.w{
+    background-color: white;
+}
+.pos{
     
+    right: 0;
+    top: em;
+     
+}
+.posit{
+  height: 50%;
+    
+     
+}
+.posa{
+    
+    right: 0;
+    bottom: 1.5em;
+    
+    
+}
