@@ -1,0 +1,218 @@
+
+@font-face {
+    font-family: "Aniron";
+    src: url("polices/pete-klassen_aniron/anirb___.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    
+    }
+    @font-face{
+        font-family: "Party Business";
+        src: url("polices/nancy-lorenz_party-business/partybusiness.ttf") format("truetype");
+    }
+    @font-face{
+        font-family: "Tengwar Annatar";
+        src: url("polices/tengwar_annatar/tngan.ttf") format("truetype");
+    }
+    h1, h2, h3, h4, h5{
+        font-family:  "Aniron";
+        font-size:2em;
+    }
+    .placement{
+        font-family: "Party Business";
+        position: absolute;
+        bottom: 6em;
+        right: 3em;
+        font-size: 4em;
+    }
+    .place{
+        position: absolute;
+        bottom: 4em;
+        right: 14em;
+        font-size: 2em;
+        
+    }
+    strike{
+        color: orangered
+    }
+    a{
+        font-family:  "Aniron";
+        font-size:1.2em;
+        color: white;
+    }
+    
+    p, table {
+        font-family: "Party Business";
+    }
+     
+    .container{
+          position: relative;
+      }
+      
+    
+    .thousand{
+          color: #FF8C00
+        }
+    
+    
+    .cardModif1{
+        width: 100%;
+        opacity: 0.5;
+          height: auto;
+        display: block;
+      transition: .5s ease;
+      backface-visibility: hidden;
+        }
+      
+    .cardModif2{
+        width: 100%;
+        opacity: 0.5;
+        }
+    .cardModif:hover .cardModif1{
+            opacity: 1;
+        }
+    .cardModif:hover .cardModif2{
+            opacity: 1;
+        }
+    .cardModif3{
+        width: 100%;
+        opacity: 0.2;
+        }
+    .cardModif:hover .cardModif3{
+            opacity: 0.4;
+        }
+    .cardModif:hover .textImg{
+          transition: .3s ease;
+        position: absolute;
+        bottom: 1%;
+        font-size: 150%;
+        
+        }
+    .cardModif:hover .textImage{
+          visibility: hidden;
+        }
+    .cardModif:hover .textImg1{
+            visibility: hidden;
+          }
+        
+    .card.table{
+           width: 100%;
+       }
+      
+    .arrondi{
+           right: 0;
+           
+       }
+      
+    .navfooter{
+           display: flex;
+           justify-content: space-around;
+           background-color: rgb(255, 91, 4);
+       }
+    .textImg1{
+          position : absolute;
+          top: 1.5em;
+          right: 10em;
+          width: 70%;
+          padding-left: 1em;
+          padding-right: 1em;
+          background: rgba(255, 255, 255, 0.5);
+          border-radius: 20px;
+          text-align: center;
+          font-size: 180%;
+          color: black;
+           transform: translate(90%, 30%);
+          -ms-transform: translate(-40%, -40%);
+           transition: .5s ease;
+      }
+      .textImg2{
+        position : absolute;
+        top: 1.5em;
+        right: 10em;
+        width: 70%;
+        padding-left: 1em;
+        padding-right: 1em;
+        background: rgba(255, 255, 255, 0.5);
+        border-radius: 20px;
+        text-align: center;
+        font-size: 180%;
+        color: orange;
+         transform: translate(90%, 30%);
+        -ms-transform: translate(-40%, -40%);
+         transition: .5s ease;
+    }
+      .textImg{
+        color: white;
+        position : absolute;
+        left: 2em;
+        top: 6em;
+        padding-left: 1em;
+        padding-right: 1em;
+        border-radius: 20px;
+        text-align: center;
+        font-size: 2.2em;
+      }
+      .symbole{
+          font-family: "Tengwar Annatar";
+          color: rgb(255, 91, 4);
+          letter-spacing: -3px;
+      }
+      .navbar{
+          background-color: rgb(255, 91, 4);
+      }
+      .card-header{
+          background-color: rgb(255, 91, 4);
+      }
+     .fond{
+         background-image: url("images/bg_light.png");
+     }
+     .bg_dark{
+         background-image: url("images/bg_dark.png");
+     }
+     .bl{
+         color: black;
+     }
+     .wh, .description{
+         color: white;
+     }
+     .ligne{
+        text-decoration: line-through orange;
+    }
+
+.taille{
+    font-size: 40px;
+}
+.taille2{
+    font-size: 40px;
+}
+.couleur{
+    color: orangered;
+}
+.coin{
+    position: absolute;
+   right: 0;
+   bottom: 0;
+   max-width: 100%;
+   height: auto;
+}
+.w{
+    background-color: white;
+}
+.pos{
+    
+    right: 0;
+    top: em;
+     
+}
+.posit{
+  height: 50%;
+    
+     
+}
+.posa{
+    
+    right: 0;
+    bottom: 1.5em;
+    
+    
+}
